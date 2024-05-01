@@ -1,11 +1,24 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to Lynx will be documented in this file. Things that need particular attention when upgrading from a prior version are marked ⚠️.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.4.0] - 2024-05-01
+
+### Added
+
+- Support for Bandcamp, Blueksy, Spotify and Threads
+- Support for X (Twitter) ([#107](https://github.com/jpanther/lynx/pull/107))
+
+### Changed
+
+- ⚠️ Author param block in site config moved to `params.author` to align with recent deprecations in the Hugo project
+- Upgrade to Tailwind v3.4.3 ([#138](https://github.com/jpanther/lynx/pull/138))
+- Upgrade to Typography v0.5.11 ([#137](https://github.com/jpanther/lynx/pull/137))
 
 ## [1.3.1] - 2023-09-10
 
@@ -100,7 +113,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fathom Analytics and Google Analytics support
 - Favicons support
 
-[Unreleased]: https://github.com/jpanther/lynx/compare/v1.3.1...HEAD
+[Unreleased]: https://github.com/jpanther/lynx/compare/v1.4.0...HEAD
+[1.4.0]: https://github.com/jpanther/lynx/compare/v1.3.1...v1.4.0
 [1.3.1]: https://github.com/jpanther/lynx/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/jpanther/lynx/compare/v1.2.4...v1.3.0
 [1.2.4]: https://github.com/jpanther/lynx/compare/v1.2.3...v1.2.4

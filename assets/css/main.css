@@ -1,4 +1,4 @@
-/*! Lynx v1.3.1 | MIT License | https://github.com/jpanther/lynx */
+/*! Lynx v1.4.0 | MIT License | https://github.com/jpanther/lynx */
 
 @tailwind base;
 @tailwind components;
@@ -20,6 +20,13 @@
 }
 .link-apple {
   background-color: #333;
+}
+.link-bandcamp {
+  background-color: #1da0c3;
+}
+.link-bluesky {
+  background: #0084ff;
+  background: linear-gradient(2.35619rad, #5a72fa 0%, #0084ff 100%);
 }
 .link-codepen {
   background-color: #1e1f26;
@@ -103,11 +110,17 @@
   background-color: #ff8800;
   background: linear-gradient(120deg, #ff8800, #ff3300);
 }
+.link-spotify {
+  background-color: #1db954;
+}
 .link-steam {
   background-color: #000;
 }
 .link-telegram {
   background-color: #25a3e1;
+}
+.link-threads {
+  background-color: #000;
 }
 .link-tiktok {
   background-color: #fe2d55;
@@ -124,6 +137,9 @@
 .link-whatsapp {
   background-color: #45d82c;
   background: linear-gradient(120deg, #12990b, #45d82c);
+}
+.link-x {
+  background-color: #000;
 }
 .link-youtube {
   background-color: #ff0000;
