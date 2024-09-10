@@ -9,13 +9,13 @@ enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
 [params.author]
-  # name = "Your name here"
-  # headline = "An awesome person"
+  name = "Sebastien Bohems"
+  headline = "Yet another random dude on the Internet"
   # image = "img/author.jpg"  # path relative to static directory
 
   links = [
     # { email = "mailto:hello@your_domain.com" },
-    # { link = "https://link-to-some-website.com/" },
+    { link = { href = "https://sbohems.me", text = "My blog" } },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
     # { bandcamp = "https://username.bandcamp.com" },
@@ -30,11 +30,11 @@ disableKinds = ["taxonomy", "term"]
     # { github = "https://github.com/username" },
     # { gitlab = "https://gitlab.com/username" },
     # { google = "https://www.google.com/" },
-    # { instagram = "https://instagram.com/username" },
+    { instagram = "https://instagram.com/seb.bachata" },
     # { keybase = "https://keybase.io/username" },
     # { kickstarter = "https://www.kickstarter.com/profile/username" },
     # { lastfm = "https://last.fm/user/username" },
-    # { linkedin = "https://linkedin.com/in/username" },
+    { linkedin = "https://linkedin.com/in/sbohems" },
     # { mastodon = "https://mastodon.instance/@username" },
     # { medium = "https://medium.com/username" },
     # { microsoft = "https://www.microsoft.com/" },
@@ -53,9 +53,9 @@ disableKinds = ["taxonomy", "term"]
     # { tiktok = "https://tiktok.com/@username" },
     # { tumblr = "https://username.tumblr.com" },
     # { twitch = "https://twitch.tv/username" },
-    # { twitter = "https://twitter.com/username" },
+    # { twitter = "https://x.com/sbohems" },
     # { whatsapp = "https://wa.me/phone-number" },
-    # { x = "https://x.com/username" },
+    { x = "https://x.com/sbohems" },
     # { youtube = "https://youtube.com/username" },
   ]
 
